@@ -1,0 +1,90 @@
+body {
+    overflow: hidden;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    height: 100vh;
+    width: 100vw;
+}
+
+.name {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.left {
+    grid-column: 1;
+    background-color: #333;
+    color: #fff;
+    padding-top: 10px;
+}
+
+.left ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+.left ul li{
+    margin-right: 10px;
+    font-size: 12px;
+    display: inline;
+    list-style-type: none;
+}
+
+.avatar {
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+    height: 6rem;
+    width: 6rem;
+}
+
+
+.hobby {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0;
+}
+
+.nav {
+    text-align: center;
+    list-style-type: none;
+    margin: 40px 0px;
+}
+
+.nav li:hover {
+    background-color:#ff0000;
+}
+
+.about {
+    padding: 20px;
+}
+
+.about h3 {
+    font-size: .8rem
+}
+
+.about p {
+    margin-top: 10px;
+    font-size: .75rem;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer a {
+    color: #fff;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.right {
+    background-color: #F6F5F5;
+    grid-column: 2;
+    overflow-y: scroll;
+}

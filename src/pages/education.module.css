@@ -1,0 +1,41 @@
+.pageTitle {
+    width: 100%;
+    padding: 40px;
+    letter-spacing: .8rem;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.degree {
+    width: 85%;
+    margin: 0 auto;
+    font-size: 1rem;
+}
+
+.title {
+    margin-bottom: 5px;
+    padding: 10px;
+    background-color: #EAEDF7;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #8E9CF2;
+}
+
+.group {
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #EAEDF7;
+    list-style-type: none;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.desc {
+    float: left;
+    /* width: 50%; */
+    
+}
+
+.gpa {
+    float: right;
+}
