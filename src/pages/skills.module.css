@@ -81,7 +81,7 @@ li {
     width: 6rem;
 }
 
-@media only screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
     .top {
         display: inline;
         list-style: none;
