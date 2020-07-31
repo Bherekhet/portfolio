@@ -69,7 +69,7 @@ const Skills = () => (
                     <li>Self-organized and able to work independently</li>
                     <li>Always curious, humble and courageous</li>
                     <li>Open to receive and deliver clear and useful criticism</li>
-                    <li>Eager to Learn and Adaprt swiftly</li>
+                    <li>Eager to Learn and Adapt swiftly</li>
                 </div>
             </div>
         </div>
